@@ -12,6 +12,7 @@
 		21D99BEF208092F400B2DCCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D99BED208092F400B2DCCE /* Main.storyboard */; };
 		21D99BF1208092F700B2DCCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D99BF0208092F700B2DCCE /* Assets.xcassets */; };
 		21D99BF4208092F700B2DCCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D99BF2208092F700B2DCCE /* LaunchScreen.storyboard */; };
+		21D99C672080D89900B2DCCE /* furo_ducky.png in Resources */ = {isa = PBXBuildFile; fileRef = 21D99C662080D89800B2DCCE /* furo_ducky.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21D99BF0208092F700B2DCCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21D99BF3208092F700B2DCCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21D99BF5208092F700B2DCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D99C662080D89800B2DCCE /* furo_ducky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = furo_ducky.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				21D99BEB208092F400B2DCCE /* ViewController.swift */,
 				21D99BED208092F400B2DCCE /* Main.storyboard */,
 				21D99BF0208092F700B2DCCE /* Assets.xcassets */,
+				21D99C662080D89800B2DCCE /* furo_ducky.png */,
 				21D99BF2208092F700B2DCCE /* LaunchScreen.storyboard */,
 				21D99BF5208092F700B2DCCE /* Info.plist */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D99C672080D89900B2DCCE /* furo_ducky.png in Resources */,
 				21D99BF4208092F700B2DCCE /* LaunchScreen.storyboard in Resources */,
 				21D99BF1208092F700B2DCCE /* Assets.xcassets in Resources */,
 				21D99BEF208092F400B2DCCE /* Main.storyboard in Resources */,
@@ -282,6 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
